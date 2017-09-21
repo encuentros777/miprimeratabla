@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface CellMainTable : UITableViewCell
+@property (strong, nonatomic) IBOutlet UIImageView *Imagen;
+@property (strong, nonatomic) IBOutlet UILabel *Nombre;
+@property (strong, nonatomic) IBOutlet UILabel *Edad;
+@property (strong, nonatomic) IBOutlet UILabel *edad2;
 
 @end
