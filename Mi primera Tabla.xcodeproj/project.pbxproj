@@ -14,6 +14,9 @@
 		DBC59AB51F732FD800F5339B /* Mi_primera_Tabla.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBC59AB31F732FD800F5339B /* Mi_primera_Tabla.xcdatamodeld */; };
 		DBC59AB71F732FD800F5339B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC59AB61F732FD800F5339B /* Assets.xcassets */; };
 		DBC59ABA1F732FD900F5339B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC59AB81F732FD900F5339B /* LaunchScreen.storyboard */; };
+		DBC59AC71F7336C300F5339B /* CellMainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC59AC51F7336C300F5339B /* CellMainTable.m */; };
+		DBC59AC81F7336C300F5339B /* CellMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBC59AC61F7336C300F5339B /* CellMainTable.xib */; };
+		DBC59ACA1F7339EF00F5339B /* Imagen in Resources */ = {isa = PBXBuildFile; fileRef = DBC59AC91F7339EF00F5339B /* Imagen */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,10 @@
 		DBC59AB61F732FD800F5339B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBC59AB91F732FD900F5339B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBC59ABB1F732FD900F5339B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC59AC41F7336C300F5339B /* CellMainTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellMainTable.h; sourceTree = "<group>"; };
+		DBC59AC51F7336C300F5339B /* CellMainTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellMainTable.m; sourceTree = "<group>"; };
+		DBC59AC61F7336C300F5339B /* CellMainTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellMainTable.xib; sourceTree = "<group>"; };
+		DBC59AC91F7339EF00F5339B /* Imagen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Imagen; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,8 @@
 		DBC59AA61F732FD800F5339B /* Mi primera Tabla */ = {
 			isa = PBXGroup;
 			children = (
+				DBC59AC91F7339EF00F5339B /* Imagen */,
+				DBC59AC31F73363100F5339B /* Cells */,
 				DBC59AC11F732FE500F5339B /* Main */,
 				DBC59AC21F73300B00F5339B /* Controllers */,
 				DBC59AB01F732FD800F5339B /* Main.storyboard */,
@@ -96,6 +105,16 @@
 				DBC59AAE1F732FD800F5339B /* Home.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DBC59AC31F73363100F5339B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DBC59AC41F7336C300F5339B /* CellMainTable.h */,
+				DBC59AC51F7336C300F5339B /* CellMainTable.m */,
+				DBC59AC61F7336C300F5339B /* CellMainTable.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,9 +175,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC59ACA1F7339EF00F5339B /* Imagen in Resources */,
 				DBC59ABA1F732FD900F5339B /* LaunchScreen.storyboard in Resources */,
 				DBC59AB71F732FD800F5339B /* Assets.xcassets in Resources */,
 				DBC59AB21F732FD800F5339B /* Main.storyboard in Resources */,
+				DBC59AC81F7336C300F5339B /* CellMainTable.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +194,7 @@
 				DBC59AB51F732FD800F5339B /* Mi_primera_Tabla.xcdatamodeld in Sources */,
 				DBC59AAC1F732FD800F5339B /* AppDelegate.m in Sources */,
 				DBC59AA91F732FD800F5339B /* main.m in Sources */,
+				DBC59AC71F7336C300F5339B /* CellMainTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
